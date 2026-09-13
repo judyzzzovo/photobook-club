@@ -1,0 +1,8 @@
+# macOS metadata
+.DS_Store
+
+# Local export and backup copies (the website lives in the repository root)
+*.zip
+/photo-book-website/
+/outputs/
+/work/
