@@ -21,6 +21,8 @@ Edit `index.html`, `styles.css`, `app.js`, or the files in `assets/`, then commi
 - `app.js` — gallery, submissions, editor tools, and interactions
 - `assets/` — photographs and video used by the site
 
-## Note about submissions
+## Supabase setup
 
-The current submission and editor tools are a front-end demo and save data only in the current browser. To accept uploads from real visitors and share them across devices, connect the site to a database and file storage service.
+Before the first upload, run `supabase/schema.sql` once in the Supabase SQL Editor. This creates the shared submissions table, the media bucket, and its access rules.
+
+The editor signs in using a magic link sent to `judyqianqianovo@gmail.com`. The Supabase publishable key in `supabase-config.js` is designed for browser use. Never add a Supabase `service_role` or secret key to this repository.
