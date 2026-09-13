@@ -1,4 +1,3 @@
-const extraPhotography=[{image:'assets/times-square.jpg',category:'city',author:'Judy Zhu',id:'seed-extra-0',seed:true},{image:'assets/bridge.jpg',category:'landscape',author:'Judy Zhu',id:'seed-extra-1',seed:true},{image:'assets/lucas-lake.jpg',category:'landscape',author:'Lucas Kouxu',id:'seed-lucas-0',seed:true},{image:'assets/lucas-train.jpg',category:'landscape',author:'Lucas Kouxu',id:'seed-lucas-1',seed:true},{image:'assets/lucas-mountains.jpg',category:'landscape',author:'Lucas Kouxu',id:'seed-lucas-2',seed:true}];
 const $=s=>document.querySelector(s),EDITOR_EMAIL='judyqianqianovo@gmail.com';
 const db=window.supabase?.createClient(window.SUPABASE_URL,window.SUPABASE_PUBLISHABLE_KEY);
 const rotations=['-3deg','2deg','-1deg','3deg'];
