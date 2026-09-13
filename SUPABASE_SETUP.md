@@ -28,8 +28,10 @@ Commit and push `index.html`, `app.js`, `supabase-config.js`, and the `supabase/
 
 1. Open the live site in a private browser window.
 2. If the `submissions` bucket already exists, run `supabase/set-photo-limit-20mb.sql` in Supabase SQL Editor once.
-3. Submit an image up to 20 MB.
-4. Click **Editors** on your normal browser, enter `judyqianqianovo@gmail.com`, and open the magic-link email.
-5. Return to the site, click **Editors** again, approve the submission, and confirm it appears in the gallery.
+3. Run `supabase/enable-shared-monthly-picks.sql` in Supabase SQL Editor once.
+4. Submit an image up to 20 MB.
+5. Click **Editors** on your normal browser, enter `judyqianqianovo@gmail.com`, and open the magic-link email.
+6. Return to the site, click **Editors** again, approve the submission, and confirm it appears in the gallery.
+7. In the same editor panel, select four Monthly picks and save. Refresh another browser to confirm it shows the shared selection.
 
 Never add a `service_role` or secret key to this project. The publishable key in `supabase-config.js` is intentionally safe for the browser and is protected by the SQL policies.
