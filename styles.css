@@ -29,3 +29,4 @@ dialog.dialog-closing{opacity:0;transform:scale(.97);transition:opacity 160ms ea
 .under-link,.submit-button,.editor-button,.nav nav a,.review-actions button{transition:transform 120ms ease-out}
 .under-link:active,.submit-button:active,.editor-button:active,.nav nav a:active,.review-actions button:active{transform:scale(.98)}
 @media (prefers-reduced-motion:reduce){dialog{transition-duration:120ms}dialog.dialog-closing{transition-duration:120ms}#preview{transition-duration:120ms}.approved-piece.is-new{animation-duration:120ms}}
+.login-error{margin:10px 0 0;color:#a51e1e;font:12px/1.4 'DM Mono',monospace}
