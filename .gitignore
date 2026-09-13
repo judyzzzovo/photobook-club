@@ -6,3 +6,6 @@
 /photo-book-website/
 /outputs/
 /work/
+
+# Never commit Supabase server secrets.
+supabase/functions/.env
